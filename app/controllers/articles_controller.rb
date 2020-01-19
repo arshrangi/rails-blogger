@@ -10,6 +10,11 @@ class ArticlesController < ApplicationController
   # Diplay one particular article
   def show
     @article = Article.find(params[:id])
+
+    #creating blank comment object.
+    @comment = Comment.new
+    @comment.article_id = @article.id
+
   end
 
   # Create a form for new article

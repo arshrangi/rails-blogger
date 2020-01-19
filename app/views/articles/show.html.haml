@@ -1,6 +1,13 @@
 %h1= @article.title
 %p= @article.body
 %br
+%h3 
+  Comments
+  = @article.comments.size
+= render partial: 'articles/comment', collection: @article.comments
+%br
+= render partial: 'comments/form'
+%br
 %br
 = link_to "Back", articles_path
 %br
