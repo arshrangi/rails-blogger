@@ -1,24 +1,20 @@
-# README
+# Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample blog app a rails project to learn the basic concepts such as models views and actions. 
 
-Things you may want to cover:
+# Setup Instructions
 
-* Ruby version
+* Clone this repo
+* Run ```bundle install``` to install all the project dependencies
+* To set up database run ```rails db:create db:migrate```
+* Run local server by using ```rails start``` or ```rails s```
+* Viset ```/localhost:3000``` in browser to view the blogger app
 
-* System dependencies
+# Screen Shots
 
-* Configuration
+![Alt text](/assets/articles_listing.png?raw=true "Articles Listing")
 
-* Database creation
+![Alt text](/assets/Sample_article_1.png?raw=true "Articles Listing")
 
-* Database initialization
+![Alt text](/assets/Sample_article_2.png?raw=true "Articles Listing")
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
